@@ -1,7 +1,7 @@
 <template>
   <header>
     <nav
-      class="navbar has-background-dark is-dark"
+      class="navbar has-background-dark is-dark foo"
       role="navigation"
       aria-label="main navigation"
     >
@@ -20,3 +20,9 @@ export default {
   components: { HeaderBarBrand, HeaderBarLinks },
 };
 </script>
+
+<style lang="scss" scoped>
+  .foo {
+    font-size: 2em;
+  }
+</style>
